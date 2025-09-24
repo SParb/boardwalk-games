@@ -29,7 +29,16 @@ p {
     color: var(--highlight-color);
 }
 
-.container,
+/* Navbar */
+#navbar {
+    background-color: var(--primary-color);
+}
+
+#navbar .logo {
+    width: 30px;
+}
+
+/*.container,
 .row {
     border: 2px solid black;
 }
@@ -37,4 +46,4 @@ p {
 .col-12 {
     border: 2px solid white;
     background-color: lightgray;
-}
+}*/
