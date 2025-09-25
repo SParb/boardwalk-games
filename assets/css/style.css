@@ -57,7 +57,7 @@ h2 {
     font-family: var(--secondary-font);
 }
 
-/* Services */
+/* Services cards*/
 
 #services .card {
     margin-bottom: 1.5rem;
@@ -67,6 +67,13 @@ h2 {
     font-weight: bold;
     color: var(--highlight-color);
     background-color: transparent;
+}
+
+/* Game library cards */
+
+#new-games .card,
+#fav-games .card {
+    border: none;
 }
 
 /*.container,
