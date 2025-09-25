@@ -21,7 +21,15 @@ h2,
 h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
+}
+
+h1,
+h2 {
     text-transform: uppercase;
+}
+
+h2 {
+    margin-bottom: 2rem;
 }
 
 .sub-heading-color {
@@ -49,6 +57,18 @@ h3 {
     font-family: var(--secondary-font);
 }
 
+/* Services */
+
+#services .card {
+    margin-bottom: 1.5rem;
+}
+
+#services .card-footer {
+    font-weight: bold;
+    color: var(--highlight-color);
+    background-color: transparent;
+}
+
 /*.container,
 .row {
     border: 2px solid black;
@@ -58,3 +78,34 @@ h3 {
     border: 2px solid white;
     background-color: lightgray;
 }*/
+
+/* Media queries */
+
+@media screen and (min-width: 768px) {
+    /* make all cards same height */
+    #services .card-body{
+        min-height: 191px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    /* make all cards same height */
+    #services .card-body{
+        min-height: auto;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    /* make all cards same height */
+    #services .card-body{
+        min-height: 220px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    /* make all cards same height */
+    #services .card-body{
+        min-height: 195px;
+    }
+}
+
