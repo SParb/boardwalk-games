@@ -93,6 +93,19 @@ h2 {
     background-color: transparent;
 }
 
+/* Events */
+
+#student-discount {
+    display: flex;
+    justify-content: center;
+}
+
+#student-discount p{ 
+    background-color: var(--highlight-color);
+    color:white;
+    padding: 0.5rem 1rem;
+}
+
 /* Game library cards */
 
 #new-games .card,
